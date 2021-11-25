@@ -1,0 +1,41 @@
+.time .container .options .check {
+	width: 460px;
+	height: 200px;
+	padding: 16px 22px;
+}
+
+.time .container .options .p p:first-child {
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+}
+
+.time .container .options .p p:nth-child(2) {
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+	margin: 5px;
+	color: #aaaaaa;
+}
+
+.time .container .options .p p:last-child {
+	color: #037c0f;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.time .check {
+	position: relative;
+}
+
+.pic {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.time .container .options .option2 .check:last-child {
+	background-color: white;
+	color: #037c0f;
+}

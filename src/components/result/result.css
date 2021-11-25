@@ -1,0 +1,104 @@
+.none {
+	display: none !important;
+}
+
+.cover {
+	width: 100%;
+	/* height: 100%; */
+	position: fixed;
+	background: rgba(4, 75, 11, 0.5);
+	top: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* display: none; */
+}
+
+.cover .content {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+.cover .content .cancel {
+	height: 23px;
+	width: 23px;
+	margin-left: auto;
+	padding: 5px;
+	background-color: white;
+	margin-bottom: 8px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.cover .content .change {
+	padding: 45px 63px;
+	width: 550px;
+	/* height: 530px; */
+	text-align: center;
+	background-color: white;
+}
+
+.cover .content .change p:first-child {
+	font-family: Red Hat Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 124.5%;
+	text-align: center;
+	color: #037c0f;
+	margin-bottom: 17px;
+}
+
+.cover .content .change p:nth-child(2) {
+	font-family: Red Hat Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 140.5%;
+	text-align: center;
+	color: #80718a;
+}
+
+.cover .content .change img {
+	margin: 50px auto;
+}
+
+.cover .content .change .cancelcontinue {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.cover .content .change .cancelcontinue .can:first-child {
+	background: #ffffff;
+	border-radius: 5px;
+	height: 57px;
+	width: 200px;
+	padding: 15px 40px;
+	color: #037c0f;
+	border: #037c0f 1px solid;
+	margin-right: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.cover .content .change .cancelcontinue .can:nth-child(2) {
+	color: #ffffff;
+	border-radius: 5px;
+	height: 57px;
+	width: 200px;
+	padding: 15px 40px;
+	background-color: #037c0f;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}

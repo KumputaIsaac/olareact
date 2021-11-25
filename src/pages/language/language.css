@@ -1,0 +1,16 @@
+.yoruba {
+	background: #ffffff;
+	border: 0.2px solid #037c0f;
+	border-radius: 8px;
+	padding: 42px;
+	width: 530px;
+}
+
+.yoruba img {
+	/* width: 100%; */
+}
+
+.yoruba img:last-child {
+	/* width: 410px; */
+	margin-top: 30px;
+}

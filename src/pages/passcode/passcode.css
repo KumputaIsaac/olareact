@@ -1,0 +1,208 @@
+.passcode {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.passcode .verifycenter {
+	width: auto;
+	/* height: 300px; */
+	/* background-color: white; */
+	padding: 25px;
+}
+
+.passcode .verifycenter .iconback {
+	display: flex;
+	align-items: center;
+	margin-bottom: 25px;
+	cursor: pointer;
+}
+
+.passcode .verifycenter .iconback img {
+	width: 6.5px;
+	height: 13px;
+	margin-right: 10px;
+}
+
+.passcode .verifycenter .iconback p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: #037c0f;
+	margin: 0;
+}
+
+.passcode .verifycenter p.verifythis {
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 49px;
+	color: #037c0f;
+	/* margin: 0px; */
+	margin-bottom: 21px;
+}
+
+.passcode .verifycenter p.verificationcode {
+	font-family: Red Hat Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 140.5%;
+	color: #037c0f;
+	margin-bottom: 20px;
+}
+
+.passcode .verifycenter .input {
+	display: flex;
+	align-items: center;
+	margin: auto;
+	width: 425px;
+	height: 75px;
+	background: #ffffff;
+	border: 0.6px solid #037c0f;
+	border-radius: 9px;
+	margin-bottom: 25px;
+}
+
+.passcode .verifycenter .input input {
+	width: 100%;
+	cursor: pointer;
+	height: 100%;
+	outline: none;
+	border: none;
+	border-radius: 10px;
+	font-size: 20px;
+	padding-right: 10px;
+}
+
+.passcode .verifycenter .input .icon {
+	padding: 22px;
+}
+
+.passcode .verifycenter .continue {
+	display: flex;
+	align-items: center;
+	margin: auto;
+	justify-content: center;
+	width: 425px;
+	height: 75px;
+	background: #037c0f;
+	border: 0.6px solid #037c0f;
+	border-radius: 9px;
+	margin-top: 54px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.passcode .verifycenter .chatadmin {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	color: #037c0f;
+	margin-top: 47px;
+}
+/* 
+.none {
+	display: none !important;
+}
+
+.cover.passcode {
+	width: 100%;
+	position: fixed;
+	background: rgba(4, 75, 11, 0.5);
+	top: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.cover.passcode .content {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+.cover.passcode .content .cancel {
+	height: 23px;
+	width: 23px;
+	margin-left: auto;
+	padding: 5px;
+	background-color: white;
+	margin-bottom: 8px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.cover.passcode .content .change {
+	padding: 45px 63px;
+	width: 550px;
+	height: 530px;
+	text-align: center;
+	background-color: white;
+}
+
+.cover.passcode .content .change p:first-child {
+	font-family: Red Hat Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 124.5%;
+	text-align: center;
+	color: #037c0f;
+	margin-bottom: 17px;
+}
+
+.cover.passcode .content .change p:nth-child(2) {
+	font-family: Red Hat Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 140.5%;
+	text-align: center;
+	color: #80718a;
+}
+
+.cover.passcode .content .change img {
+	margin: 30px auto;
+}
+
+.cover.passcode .content .change .cancelcontinue {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+.cover.passcode .content .change .cancelcontinue .can:first-child {
+	border-radius: 5px;
+	height: 57px;
+	width: 200px;
+	padding: 15px 40px;
+	border: #037c0f 1px solid;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #ffffff;
+	background-color: #037c0f;
+}
+
+.cover.passcode .content .change .cancelcontinue .can:nth-child(2) {
+	border-radius: 5px;
+	height: 57px;
+	width: 200px;
+	padding: 15px 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+} */

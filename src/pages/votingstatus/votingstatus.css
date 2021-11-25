@@ -1,0 +1,195 @@
+.passcode {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.passcode .verifycenter {
+	width: auto;
+	/* height: 300px; */
+	/* background-color: white; */
+	padding: 25px;
+}
+
+.passcode .verifycenter .iconback {
+	display: flex;
+	align-items: center;
+	margin-bottom: 25px;
+	cursor: pointer;
+}
+
+.passcode .verifycenter .iconback img {
+	width: 6.5px;
+	height: 13px;
+	margin-right: 10px;
+}
+
+.passcode .verifycenter .iconback p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: #037c0f;
+	margin: 0;
+}
+
+.passcode .verifycenter p.verifythis {
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 49px;
+	color: #037c0f;
+	/* margin: 0px; */
+	margin-bottom: 21px;
+}
+
+.passcode .verifycenter .pictureid {
+	display: flex;
+	padding: 15px;
+	align-items: center;
+	/* justify-content: center; */
+	background-color: white;
+	border: 0.1px solid #037c0f;
+	border-radius: 9px;
+}
+
+.passcode .verifycenter .pictureid img {
+	margin-right: 15px;
+	border-radius: 5px;
+	margin-left: 15px;
+}
+
+.passcode .verifycenter .pictureid .userid p:first-child {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 29px;
+	color: #aaaaaa;
+}
+
+.passcode .verifycenter .pictureid .userid p:nth-child(2) {
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+	color: #037c0f;
+}
+
+.passcode .verifycenter .docno {
+	position: relative;
+	width: 459px;
+	height: 194px;
+	background: #ffffff;
+	border: 0.1px solid #037c0f;
+	border-radius: 9px;
+	overflow: hidden;
+	margin-top: 33px;
+}
+
+.passcode .verifycenter .docno .hiddenshape {
+	position: absolute;
+
+	width: 57px;
+	height: 194px;
+	background: #037c0f;
+	border-radius: 44px;
+	left: -40px;
+	top: 0;
+}
+
+.passcode .verifycenter .docno .thetalk {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-left: 15px;
+}
+
+.passcode .verifycenter .docno .thetalk .number {
+	/* width: 200px; */
+	height: 90px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/* align-items: center; */
+	padding: 0 20px;
+}
+
+.passcode .verifycenter .docno .thetalk .number.right {
+	text-align: right;
+}
+
+.passcode .verifycenter .docno .thetalk .number p:first-child {
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	color: #aaaaaa;
+}
+
+.passcode .verifycenter .docno .thetalk .number p:last-child {
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+	color: #037c0f;
+	margin-top: 5px;
+}
+
+.passcode .verifycenter .currentupdate {
+	width: 459px;
+	height: 120px;
+	background: #ffffff;
+	border: 0.1px solid #037c0f;
+	box-sizing: border-box;
+	border-radius: 9px;
+	margin-top: 33px;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.passcode .verifycenter .currentupdate .hiddenshape2 {
+	position: absolute;
+	width: 77px;
+	height: 86px;
+	background: #037c0f;
+	border-radius: 29px;
+	left: -60px;
+	top: 10px;
+}
+
+.passcode .verifycenter .currentupdate .currentpollingunit {
+	/* width: 250px; */
+	padding-left: 30px;
+}
+
+.passcode .verifycenter .currentupdate .currentpollingunit p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: #aaaaaa;
+}
+
+.passcode .verifycenter .currentupdate .currentpollingunit p:last-child {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: #037c0f;
+	margin-top: 5px;
+}
+
+.passcode .verifycenter .currentupdate .updatepollingunit {
+	/* width: 174px; */
+	/* height: 45px; */
+	background: #037c0f;
+	border: 0.1px solid #037c0f;
+	box-sizing: border-box;
+	border-radius: 9px;
+	padding: 12px 18px;
+	margin-right: 20px;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	color: #ffffff;
+	cursor: pointer;
+}

@@ -1,0 +1,10 @@
+.container .welcome p:first-child {
+	font-size: 24px;
+	line-height: 29px;
+	margin-bottom: 15px;
+	font-weight: normal;
+}
+
+.container .verifyy {
+	height: auto;
+}

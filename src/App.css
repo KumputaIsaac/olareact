@@ -1,0 +1,10 @@
+body {
+	background: rgba(49, 107, 3, 0.03);
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Montserrat", sans-serif;
+}

@@ -1,0 +1,97 @@
+.verifyy {
+	/* height: 100vh; */
+	/* width: 100vw; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.verifyy .verifycenter {
+	width: 450px;
+	/* height: 300px; */
+	/* background-color: white; */
+	padding: 25px;
+}
+
+.verifyy .verifycenter .iconback {
+	display: flex;
+	align-items: center;
+	margin-bottom: 25px;
+	cursor: pointer;
+}
+
+.verifyy .verifycenter .iconback img {
+	width: 6.5px;
+	height: 13px;
+	margin-right: 10px;
+}
+
+.verifyy .verifycenter .iconback p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: #037c0f;
+	margin: 0;
+}
+
+.verifyy .verifycenter p.verifythis {
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 49px;
+	color: #037c0f;
+	/* margin: 0px; */
+	margin-bottom: 21px;
+}
+
+.verifyy .verifycenter p.verificationcode {
+	font-family: Red Hat Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 140.5%;
+	color: #037c0f;
+	margin-bottom: 20px;
+}
+
+.verifyy .verifycenter .input {
+	display: flex;
+	align-items: center;
+	width: 425px;
+	height: 75px;
+	background: #ffffff;
+	border: 0.6px solid #037c0f;
+	border-radius: 9px;
+	margin-bottom: 40px;
+}
+
+.verifyy .verifycenter .input input {
+	width: 100%;
+	cursor: pointer;
+	height: 100%;
+	outline: none;
+	border: none;
+	border-radius: 10px;
+	font-size: 20px;
+	padding-right: 10px;
+}
+
+.verifyy .verifycenter .input .icon {
+	padding: 22px;
+}
+
+.verifyy .verifycenter .continue {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 425px;
+	height: 75px;
+	background: #037c0f;
+	border: 0.6px solid #037c0f;
+	border-radius: 9px;
+
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: #ffffff;
+	cursor: pointer;
+}
