@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useHistory } from "react-router-dom";
 import "./result.css";
 
-export default function Result({ page, passcode, votingstatus }) {
+export default function Result({ page, passcode, votingstatus, lan }) {
 	const cancel = () => {
 		let cover = document.querySelector(".cover");
 		cover.classList.add("none");
@@ -43,6 +43,55 @@ export default function Result({ page, passcode, votingstatus }) {
 
 	return (
 		<div>
+			{lan ? (
+				<div class="cover none" id="cover">
+					<div class="content">
+						<div id="cancel" onClick={cancel} class="cancel">
+							<img src="./images/v5.png" alt="" />
+						</div>
+						<div class="change">
+							<p>Change Passcode</p>
+							<p>
+								Changing your passcode will mean you’ll be setting a new
+								passcode. This New Passcode will be used to log into your
+								account
+							</p>
+							<img src={icon.picture} alt="" />
+							<div class="cancelcontinue">
+								<div class="can">CANCEL</div>
+
+								<div onClick={routeChange} class="can">
+									CONTINUE
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			) : (
+				<div class="cover none" id="cover">
+					<div class="content">
+						<div id="cancel" onClick={cancel} class="cancel">
+							<img src="./images/v5.png" alt="" />
+						</div>
+						<div class="change">
+							<p>Yi koodu iwọle pada</p>
+							<p>
+								Yiyipada koodu iwọle rẹ yoo tumọ si pe iwọ yoo ṣeto koodu iwọle
+								tuntun kan. Koodu iwọle Tuntun yii yoo ṣee lo lati wọle si
+								akọọlẹ rẹ
+							</p>
+							<img src={icon.picture} alt="" />
+							<div class="cancelcontinue">
+								<div class="can">Ma yi pada</div>
+
+								<div onClick={routeChange} class="can">
+									Tesiwaju
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			)}
 			<div class="cover none" id="cover">
 				<div class="content">
 					<div id="cancel" onClick={cancel} class="cancel">

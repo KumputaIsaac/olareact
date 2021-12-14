@@ -12,15 +12,19 @@ import Record from "./pages/record/Record";
 import Language from "./pages/language/Language";
 import Hiola from "./pages/hiola/Hiola";
 import Time from "./pages/time/Time";
+import { useState } from "react";
 
 function App() {
+	const [lan, setlan] = useState(true);
+
+	console.log(lan);
 	return (
 		<div className="App">
 			<Logo />
 			<Router>
 				<Switch>
 					<Route exact path="/">
-						<Homepage />
+						<Homepage lan={lan} />
 					</Route>
 					<Route path="/verify">
 						<Verify />
@@ -41,7 +45,7 @@ function App() {
 						<Record />
 					</Route>
 					<Route path="/language">
-						<Language />
+						<Language setlan={setlan} lan={lan} />
 					</Route>
 					<Route path="/hiola">
 						<Hiola />
